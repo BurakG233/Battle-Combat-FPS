@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pro FPS Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="hud">
+    <div id="health-bar"><div id="health"></div></div>
+    <div id="ammo">Mermi: ∞</div>
+    <div id="weapon">Silah: Bıçak</div>
+    <div id="score">Skor: 0</div>
+  </div>
+
+  <div id="crosshair">+</div>
+  <div id="damage-overlay"></div>
+
+  <div id="game-over" class="hidden">
+    <h1>GAME OVER</h1>
+    <p id="final-score"></p>
+    <button id="restartBtn">Tekrar Oyna</button>
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>
